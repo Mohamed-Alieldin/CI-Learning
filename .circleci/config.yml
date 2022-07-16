@@ -30,7 +30,8 @@ jobs:
       - checkout
       - run:
           name: "Print environment variable "
-          command: "echo $MY_NAME"
+          command: 
+            echo $MY_NAME
 
 
 # Invoke jobs via workflows
